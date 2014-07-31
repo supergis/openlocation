@@ -20,4 +20,16 @@ git clone git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.python.git
 cd org.eclipse.paho.mqtt.python
 sudo python setup.py install 
 
+=============================================
+
+Install Mosquitto locally:
+
+    sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+    sudo apt-get update
+
+or From source:
+hg clone https://bitbucket.org/oojah/mosquitto
+sudo apt-get install libssl-dev
+sudo apt-get install ares
+sudo apt-get install xsltproc
 
